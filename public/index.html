@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f2b">
+  <meta name="description" content="Herblife offers farmland rental enquiries in India for growing crops and exploring farm produce and by-products.">
+  <title>Herblife — Rent Farmland, Grow Your Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Herblife home"><span class="brand-mark">✳</span><span>herblife<small>FARMLAND & FARM PRODUCE</small></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#our-approach">Our approach</a><a class="nav-cta" href="#request">Start a request <span>↗</span></a></nav>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="eyebrow light"><span class="eyebrow-dot"></span> YOUR LAND TO GROW. YOUR FUTURE TO HARVEST.</div>
+        <h1>Find your space<br>to <em>grow.</em></h1>
+        <p>Looking for farmland to rent? Tell us about your plans and explore possibilities with Herblife in India.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#request">Enquire about farmland <span>↗</span></a><a class="text-link light-link" href="#how-it-works">See how it works <span>↓</span></a></div>
+        <div class="hero-note"><span class="note-icon">✳</span><span>A better growing journey<br>starts with a conversation.</span></div>
+      </div>
+      <div class="hero-caption"><span>GROW WITH PURPOSE</span><span>01 — FROM PLAN TO PLANT</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="our-approach">
+      <div class="intro-label"><span class="tiny-line"></span> A DIFFERENT WAY TO GROW</div>
+      <div class="intro-copy"><h2>Your growing plans.<br><span>Room to take root.</span></h2><p>Herblife welcomes enquiries from people interested in renting farmland in India. Share your preferred area, crop plans and rental timeframe. We’ll follow up to discuss availability, terms and practical next steps.</p><a class="under-link" href="#request">Explore farmland rental <span>↗</span></a></div>
+      <div class="intro-stamp"><span class="stamp-star">✳</span><span>GROW<br>WITH CARE</span><span class="stamp-bottom">ROOTED IN THE LAND</span></div>
+    </section>
+
+    <section class="process" id="how-it-works">
+      <div class="section-wrap process-inner"><div class="process-heading"><div class="eyebrow"><span class="eyebrow-dot"></span> SIMPLE BY NATURE</div><h2>Three steps.<br><em>Your next growing chapter.</em></h2><p>Find out whether our farmland is a fit for your plans.</p></div>
+        <div class="steps"><article class="step"><span class="step-number">01</span><div class="step-icon">✎</div><h3>Tell us your plans</h3><p>Tell us what you want to grow, how much land you need and when you hope to rent it.</p></article><article class="step"><span class="step-number">02</span><div class="step-icon">↗</div><h3>Discuss the details</h3><p>We’ll review your enquiry and discuss availability, rental terms, access and practical requirements.</p></article><article class="step"><span class="step-number">03</span><div class="step-icon">❋</div><h3>Agree on next steps</h3><p>If it’s a good fit, we’ll discuss the proposed arrangement before any rental agreement is made.</p></article></div>
+      </div>
+    </section>
+
+    <section class="request-section" id="request">
+      <div class="request-wrap"><div class="request-intro"><div class="eyebrow light"><span class="eyebrow-dot"></span> LET’S FIND YOUR FARM SPACE</div><h2>Let’s talk<br>about <em>land.</em></h2><p>Tell us what you need from a farmland rental. Herblife will review your enquiry and contact you to discuss availability and terms.</p><div class="request-aside"><span class="aside-icon">↳</span><p><strong>Still working out the details?</strong><br>Share your current plans and we can discuss the rest together.</p></div><div class="field-note"><span>✳</span> YOUR DETAILS HELP US FOLLOW UP ON YOUR ENQUIRY.</div></div>
+        <div class="form-card"><div class="form-top"><div><span class="form-kicker">FARMLAND RENTAL ENQUIRY</span><h3>Enquire about renting land</h3></div><span class="form-count">01 <i>/ 01</i></span></div><p class="required-note"><span>*</span> Required fields</p>
+          <form id="grow-form" novalidate>
+            <div class="form-grid"><label class="field full">Full name <span>*</span><input name="name" autocomplete="name" placeholder="e.g. Priya Sharma" required maxlength="100"></label>
+              <label class="field">Phone number <span>*</span><input name="phone" type="tel" autocomplete="tel" placeholder="Your best contact number" required maxlength="30"></label>
+              <label class="field">Email address <small>(optional)</small><input name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="150"></label>
+              <label class="field full">Your current location <span>*</span><input name="location" autocomplete="street-address" placeholder="Village, town or district" required maxlength="180"></label>
+              <div class="field full"><label for="crop">What will you grow or produce? <span>*</span></label><select id="crop" name="crop" required><option value="" disabled selected>Choose a crop or farm interest</option><option>Vegetables</option><option>Grains & cereals</option><option>Pulses & legumes</option><option>Fruits</option><option>Honey / beekeeping</option><option>Milk and dairy products</option><option>Vermi compost</option><option>Other farm by-products</option><option>Mixed farming</option><option>Not sure yet</option></select></div>
+              <label class="field">Land area required <span>*</span><input name="area" placeholder="e.g. 1 acre, 2 bigha, 0.5 hectare" required maxlength="80"></label>
+              <div class="field"><label for="season">Preferred rental start</label><select id="season" name="season"><option value="" selected>Choose a timeframe</option><option>As soon as possible</option><option>Within 1–3 months</option><option>Within 3–6 months</option><option>Next growing season</option><option>Just exploring options</option></select></div>
+              <div class="field full"><label for="method">Preferred rental duration</label><select id="method" name="method"><option value="" selected>Not sure yet / open to discussion</option><option>Seasonal (up to 6 months)</option><option>1 year</option><option>2–3 years</option><option>More than 3 years</option></select></div>
+              <label class="field full">Anything else we should know? <small>(optional)</small><textarea name="notes" rows="3" placeholder="Tell us your preferred district, water or electricity needs, budget, facilities required, or questions…" maxlength="1500"></textarea></label>
+            </div>
+            <p class="privacy-note">By submitting, you agree that Herblife may contact you about this enquiry. Submission does not guarantee land availability or create a rental agreement.</p>
+            <button class="button button-dark submit-button" type="submit"><span class="submit-label">Send farmland enquiry</span><span class="submit-arrow">↗</span></button>
+            <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-wrap"><span class="closing-symbol">✳</span><p>Good things take root<br>when you have room to <em>grow.</em></p><a href="#request" class="closing-link">Enquire about farmland <span>↗</span></a></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">✳</span><span>herblife<small>FARMLAND & FARM PRODUCE</small></span></a><span>Farmland possibilities. Growing futures.</span><a href="#home">BACK TO TOP ↑</a><small class="copyright">© <span id="year"></span> Herblife. Farmland rental enquiries in India.</small></footer>
+  <script src="/script.js"></script>
+</body>
+</html>
