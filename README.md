@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Herblife — Node.js website
 
 A responsive farmland rental homepage and enquiry form built with Node.js, Express, HTML, CSS, and browser JavaScript.
@@ -43,3 +44,6 @@ Required fields: name, phone, location, farm interest, and requested land area. 
 This version is branded for **Herblife**, based in India. The enquiry form is designed for farmland rental interest and includes crop/farm interests such as vegetables, grains, pulses, fruits, honey/beekeeping, milk and dairy products, vermi compost, other farm by-products, and mixed farming. It asks for preferred land area, rental start timeframe, rental duration, location, and additional requirements.
 
 The website does not advertise confirmed land availability or set rental prices. Contact each enquiry to discuss location, facilities, rates, and written rental terms before making any commitment.
+=======
+# herblife
+>>>>>>> 29879af59af4739440bc1f0e7d699d887f9108ae
